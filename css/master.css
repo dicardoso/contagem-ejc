@@ -1,0 +1,43 @@
+#t1, #t2, #t3{
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+}
+  
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #f5f7fb;
+    height: 100vh;
+
+    background-color: tomato;
+    background-image: linear-gradient(45deg, rgba(0, 145, 200, .6), rgba(1, 193, 120, .8)),url(/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+  
+.cards {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    white-space: nowrap;
+}
+  
+.card {
+    display: inline-block;
+    width: calc(100%/6 - 1%);
+    margin: .5%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 40, 100, 0.12);
+    border-radius: 3px;
+    background-color: #fff;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px black;
+}
