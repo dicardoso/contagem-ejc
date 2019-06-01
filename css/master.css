@@ -1,7 +1,7 @@
 #t1, #t2, #t3{
     text-align: center;
     color: rgb(85, 85, 85);
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .text-center {
@@ -17,6 +17,21 @@ body {
 
     margin: 0;
     height: 100%;
+}
+
+header img{
+    width: 100px;
+    padding: 0 20px;
+}
+
+header #logo{
+    width: 80px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .clock{
