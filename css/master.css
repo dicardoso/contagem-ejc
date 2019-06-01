@@ -40,3 +40,8 @@ header{
     align-items: center;
 }
 
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-align: center;
+}
